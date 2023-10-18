@@ -13,6 +13,7 @@ public class Start {
         String completeAction = scanner.nextLine();
         String[] action = completeAction.split(" ");
 
+
         boolean b = validationService.validateExprecion(action);
         if(b){
             Integer resultCalculate = calculateService.getResultCalculate(Integer.parseInt(action[0]), action[1], Integer.parseInt(action[2]));
