@@ -26,35 +26,5 @@ public class CalculateService {
         return null;
     }
 
-//        switch (complete){
-//            case "-":
-//                if (firstNumber >= 1 && firstNumber<=10 && secondNumber <=10 && secondNumber>=1){
-//                    System.out.print("Output: " + "\n" + (firstNumber - secondNumber));
-//                } else
-//                    System.out.println("Output: " + "\n" + "Число не удовлетворяет требованиям");
-//                break;
-//            case "+":
-//                if (firstNumber >= 1 && firstNumber<=10 && secondNumber <=10 && secondNumber>=1) {
-//                    System.out.print("Output: " + "\n" + (firstNumber + secondNumber));
-//                } else
-//                    System.out.println("Output: " + "\n" + "Число не удовлетворяет требованиям");
-//                break;
-//            case "*":
-//                if (firstNumber >= 1 && firstNumber<=10 && secondNumber <=10 && secondNumber>=1) {
-//                    System.out.print("Output: " + "\n" + (firstNumber * secondNumber));
-//                } else
-//                    System.out.println("Output: " + "\n" + "Число не удовлетворяет требованиям");
-//                break;
-//            case "/":
-//                if (firstNumber >= 1 && firstNumber<=10 && secondNumber <=10 && secondNumber>=1) {
-//                    System.out.print("Output: " + "\n" + (firstNumber / secondNumber));
-//                } else if (secondNumber == 0){
-//                    System.out.println("Output: " + "\n" + "На ноль деление запрещено");
-//                }
-//                    else
-//                    System.out.println("Output: " + "\n" + "Число не удовлетворяет требованиям");
-//                break;
-//            default:
-//                System.out.println("Output: " + "\n" + "Такого действия нет");
-//        }
+
 }
