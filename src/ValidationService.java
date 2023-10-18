@@ -18,7 +18,7 @@ public class ValidationService {
             int second = converter.convertStringToInt(secondNumber);
 
 
-            if (first >= 0 && first <= 10 && second <= 10 && second >= 0) {
+            if (first >= 1 && first <= 10 && second <= 10 && second >= 1) {
                 return true;
             } else {
                 System.out.println("Данное число не подходит ");
