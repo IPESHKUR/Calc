@@ -1,5 +1,4 @@
 
-
 public class CalculateService {
 
 
@@ -16,15 +15,12 @@ public class CalculateService {
                 int res2 = firstNumber * secondNumber;
                 return res2;
             case "/":
-                if (secondNumber == 0){
-                    System.out.println("Output: " + "\n" + "На ноль деление запрещено");
-                    break;
-                }
                 int res3 = firstNumber / secondNumber;
                 return res3;
         }
         return null;
     }
+
 
 
 }
